@@ -4,20 +4,15 @@ import torch.optim as optim
 import torch.utils.data as utils_data
 from einops import rearrange
 
-import GLM
 import os
 import sys
 import time
-import math
-import pickle
 import argparse
 import load_data
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
 from scipy.stats import f
-import matplotlib.pyplot as plt
-from scipy.ndimage.filters import gaussian_filter1d
 
 from tensorboardX import SummaryWriter
 
